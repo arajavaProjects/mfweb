@@ -3,17 +3,16 @@ body{
 
   
   font-size: large;  
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
    
 }
 
 
 .lingr
 {
-  width: 100%;
-  height: 1000px;
+  height: 350px;
   background-image: linear-gradient(to left , #BFFFB2 , #FFFFFF);
-  margin-top: -50px;
+  
   
 }
 
@@ -22,8 +21,28 @@ body{
   width: 100%;
   height: 500px;
   background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
-  margin-top: -280px;
+}
+
+.lingr3
+{
+  height: 700px;
+  background-image: linear-gradient(to left , #BFFFB2 , #FFFFFF);
+  padding-top: 1.2%;
   
+}
+
+.lingr4
+{
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
+}
+
+.lingr5
+{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to right , #E7EFFE , #FFFFFF);
 }
 
 .hero_txt
@@ -35,6 +54,12 @@ body{
    
 }
 
+.card{
+  
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
 
 
 .fa:hover {
@@ -57,47 +82,20 @@ color:white;
 
 
 .our_work{
-    width: 60%;
+    width: 100%;
     height: 100%;
-    margin-left:180px;
-    margin-top:200px;
+    margin-left:50px;
   }
 
- 
+
+
+.card-img-top{
+  height :40%;
+}
 
  /*-------------------------------------------*/
 
-  #quote-carousel {
-      padding: 0 10px 30px 10px;
-      margin-top: 60px;
-  }
-  #quote-carousel .carousel-indicators {
-      position: relative;
-      right: 50%;
-      top: auto;
-      bottom: 0px;
-      margin-top: 20px;
-      margin-right: -19px;
-  }
-  #quote-carousel .carousel-indicators li {
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-      border: 1px solid #ccc;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      border-radius: 50%;
-      opacity: 0.4;
-      overflow: hidden;
-      transition: all .4s ease-in;
-      vertical-align: middle;
-  }
-  #quote-carousel .carousel-indicators .active {
-      width: 128px;
-      height: 128px;
-      opacity: 1;
-      transition: all .2s;
-  }
-
+  
  /*--------------------executive committee------------------------*/
 
 
@@ -145,6 +143,7 @@ color:white;
 }
 
 
+
 /*-----------------------------executive committe-----------------------------*/
 
 
@@ -171,3 +170,11 @@ color:white;
   
 }
 }
+
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------*/
