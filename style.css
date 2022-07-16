@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body{
 
@@ -144,6 +149,7 @@ color:white;
 
 
 
+
 /*-----------------------------executive committe-----------------------------*/
 
 
@@ -178,3 +184,156 @@ color:white;
 
 
 /*---------------------------------------------------------------------------*/
+
+
+/*----------------------Contact Us-----------------------------------*/
+.bcolor
+{
+  background-color:#f2f7fe;
+  background-image: linear-gradient(to right,#f2f7fe,#fcfdff);
+}
+.contact-heading
+{
+  color:#ccc;
+}
+.contact-sub-head
+{
+  font-size: 1rem;
+  color: #1e81b0;
+}
+.bcolor2
+{
+  background-color:#c6ffce;
+  background-image: linear-gradient(to right,#c6ffce,#fcfdff);
+}
+.pattern
+{
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 300;
+}
+@media screen and (max-width:767px)
+{
+.mobile-map
+{
+  width:70%;
+}
+.mobile-navigate-btn
+{
+  border-radius: 1rem;
+  width:6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: none;
+  background-color: #e0ebfd;
+  color: #1e81b0;
+  font-weight: bold;
+  
+}
+input[type=text]
+{
+  border-radius:1.5rem;
+  border-color: #ccc;
+  border-style: solid;
+  width:70%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.mobile-message
+{
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-left: 20%;
+}
+#m-message
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.submit-btn
+{
+  border-radius: 1rem;
+  width:6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: none;
+  background-color: #e0ebfd;
+  color: #1e81b0;
+  font-weight: bold;
+
+}
+
+}
+
+@media screen and (min-width:993px)
+{
+
+  .icon
+{
+  margin-top: 2rem;
+  margin-left: 2.3rem;
+  
+}
+
+.map 
+{
+  width:100%;
+  margin-top: 12rem;
+}
+
+.navigate-btn
+{
+  border-radius: 1rem;
+  width:6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: none;
+  background-color: #e0ebfd;
+  color: #1e81b0;
+  font-weight: bold;
+  margin-top:1rem;
+  /* margin-left:70%; */
+}
+
+.message
+{
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-left: 1.9rem;
+}
+.contact-email
+{
+  margin-top:4rem;
+}
+input[type=text]
+{
+  border-radius:1.5rem;
+  border-color: #ccc;
+  border-style: solid;
+  width:100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+#m-message
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.submit-btn
+{
+  border-radius: 1rem;
+  width:6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: none;
+  background-color: #e0ebfd;
+  color: #1e81b0;
+  font-weight: bold;
+
+}
+
+
+}
+
