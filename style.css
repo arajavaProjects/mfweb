@@ -212,6 +212,11 @@ color:white;
   padding-bottom: 0.5rem;
   font-size: 300;
 }
+.notified{
+  font-family: 'Red Hat Display';
+  font-size: 0.85rem;
+}
+
 @media screen and (max-width:767px)
 {
 .mobile-map
@@ -301,6 +306,7 @@ input[type=text]
   font-weight: 500;
   font-size: 1.3rem;
   margin-left: 1.9rem;
+  padding-top: 4rem;
 }
 .contact-email
 {
